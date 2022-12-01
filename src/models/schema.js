@@ -14,7 +14,7 @@ export const schema = {
                     "name": "content",
                     "isArray": false,
                     "type": "String",
-                    "isRequired": false,
+                    "isRequired": true,
                     "attributes": []
                 },
                 "userID": {
@@ -414,5 +414,5 @@ export const schema = {
     "enums": {},
     "nonModels": {},
     "codegenVersion": "3.3.2",
-    "version": "03cc8b34ebeed1f189bf712d2512150e"
+    "version": "2915b55d2abc324b95ad1c6958cd32e3"
 };

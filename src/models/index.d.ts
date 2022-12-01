@@ -12,7 +12,7 @@ type EagerMessage = {
     readOnlyFields: 'createdAt' | 'updatedAt';
   };
   readonly id: string;
-  readonly content?: string | null;
+  readonly content: string;
   readonly userID: string;
   readonly chatroomID: string;
   readonly createdAt?: string | null;
@@ -25,7 +25,7 @@ type LazyMessage = {
     readOnlyFields: 'createdAt' | 'updatedAt';
   };
   readonly id: string;
-  readonly content?: string | null;
+  readonly content: string;
   readonly userID: string;
   readonly chatroomID: string;
   readonly createdAt?: string | null;

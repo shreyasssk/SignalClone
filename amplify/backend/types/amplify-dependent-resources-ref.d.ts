@@ -12,7 +12,6 @@ export type AmplifyDependentResourcesAttributes = {
     },
     "api": {
         "SignalClone": {
-            "GraphQLAPIKeyOutput": "string",
             "GraphQLAPIIdOutput": "string",
             "GraphQLAPIEndpointOutput": "string"
         }
