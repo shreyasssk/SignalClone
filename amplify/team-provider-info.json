@@ -1,15 +1,16 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-signalclone-staging-142023-authRole",
-      "UnauthRoleArn": "arn:aws:iam::704219588443:role/amplify-signalclone-staging-142023-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::704219588443:role/amplify-signalclone-staging-142023-authRole",
-      "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-signalclone-staging-142023-deployment",
-      "UnauthRoleName": "amplify-signalclone-staging-142023-unauthRole",
-      "StackName": "amplify-signalclone-staging-142023",
-      "StackId": "arn:aws:cloudformation:eu-west-1:704219588443:stack/amplify-signalclone-staging-142023/c22c1eb0-01c1-11ec-a710-0a765228daef",
-      "AmplifyAppId": "d28kwkid6yb4zl"
+      "AuthRoleName": "amplify-signalclone-staging-123702-authRole",
+      "UnauthRoleArn": "arn:aws:iam::517988506592:role/amplify-signalclone-staging-123702-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::517988506592:role/amplify-signalclone-staging-123702-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-signalclone-staging-123702-deployment",
+      "UnauthRoleName": "amplify-signalclone-staging-123702-unauthRole",
+      "StackName": "amplify-signalclone-staging-123702",
+      "StackId": "arn:aws:cloudformation:ap-south-1:517988506592:stack/amplify-signalclone-staging-123702/8656c940-6fe2-11ed-9817-0ab64680d730",
+      "AmplifyAppId": "d3lqtx8au9jqdm",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-signalclone-staging-123702-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "auth": {
@@ -17,9 +18,12 @@
       },
       "function": {
         "SignalClonePostConfirmation": {
-          "deploymentBucketName": "amplify-signalclone-staging-142023-deployment",
-          "s3Key": "amplify-builds/SignalClonePostConfirmation-6f504a5254326c567a71-build.zip"
+          "deploymentBucketName": "amplify-signalclone-staging-123702-deployment",
+          "s3Key": "amplify-builds/SignalClonePostConfirmation-777a6a4443352b363335-build.zip"
         }
+      },
+      "api": {
+        "SignalClone": {}
       }
     }
   }
